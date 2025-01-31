@@ -1,889 +1,465 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
-<head>
+  <head>
+
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Gymate</title>
-    <meta name="robots" content="index, follow" />
-    <meta name="description" content="Try out Gymate Gym Fitness Bootstrap 5 Template today because this awesome fitness related website template comes completely free of any cost.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
-    <!-- CSS
-	============================================ -->
+    <title>Training Studio - Free CSS Template</title>
+<!--
 
-    <!-- Vendor CSS (Bootstrap & Icon Font) -->
-    <link rel="stylesheet" href="assets/css/vendor/font-awesome-pro.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/pe-icon-7-stroke.css">
+TemplateMo 548 Training Studio
 
-    <!-- Plugins CSS (All Plugins Files) -->
-    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/animate.css">
-    <link rel="stylesheet" href="assets/css/plugins/aos.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+https://templatemo.com/tm-548-training-studio
 
-    <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+-->
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
-    <!-- Use the minified version files listed below for better performance and remove the files listed above -->
-    <!-- <link rel="stylesheet" href="assets/css/vendor/vendor.min.css">
-    <link rel="stylesheet" href="assets/css/plugins/plugins.min.css">
-    <link rel="stylesheet" href="assets/css/style.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
 
-</head>
+    <link rel="stylesheet" href="assets/css/templatemo-training-studio.css">
 
-<body>
-    <div id="page" class="section">
-        <!-- Header Section Start -->
-        <div class="header-section header-transparent sticky-header header-fluid section">
-            <div class="header-inner">
-                <div class="container position-relative">
-                    <div class="row justify-content-between align-items-center">
+    </head>
 
-                        <!-- Header Logo Start -->
-                        <div class="col-xl-2 col-auto">
-                            <div class="header-logo">
-                                <a href="index.html">
-                                    <img class="dark-logo" src="assets/images/logo/logo.png" alt="Fitness Logo">
-                                    <img class="light-logo" src="assets/images/logo/logo.png" alt="Fitness Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <!-- Header Logo End -->
+    <body>
 
-                        <!-- Header Main Menu Start -->
-                        <div class="col d-none d-xl-block">
-                            <div class="menu-column-area d-none d-xl-block position-static">
-                                <nav class="site-main-menu">
-                                    <ul>
-                                        <li>
-                                            <a href="index.html"><span class="menu-text">Home</span></a>
-                                        </li>
-                                        <li class="has-children">
-                                            <a href="about.html"><span class="menu-text">Pages</span></a>
-                                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                                            <ul class="sub-menu">
-                                                <li><a href="about.html"><span class="menu-text">About</span></a></li>
-                                                <li><a href="team.html"><span class="menu-text">Our Team</span></a></li>
-                                                <li><a href="contact.html"><span class="menu-text">Contact</span></a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="our-program.html"><span class="menu-text">Our Program</span></a>
-                                        </li>
-                                        <li class="has-children">
-                                            <a href="shop.html"><span class="menu-text">Shop</span></a>
-                                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                                            <ul class="sub-menu">
-                                                <li><a href="shop.html"><span class="menu-text">Shop</span></a></li>
-                                                <li><a href="product-details.html"><span class="menu-text">Product
-                                                            Details</span></a></li>
-                                                <li><a href="shopping-cart.html"><span class="menu-text">Shopping
-                                                            Cart</span></a></li>
-                                                <li><a href="wishlist.html"><span class="menu-text">Wishlist</span></a>
-                                                </li>
-                                                <li><a href="checkout.html"><span class="menu-text">Checkout</span></a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-children">
-                                            <a href="blog-grid.html"><span class="menu-text">Blog</span></a>
-                                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog-grid.html"><span class="menu-text">Blog
-                                                            Grid</span></a></li>
-                                                <li><a href="blog-details.html"><span class="menu-text">Blog
-                                                            Details</span></a></li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="event.html"><span class="menu-text">Event</span></a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <!-- Header Main Menu End -->
-
-                        <!-- Header Right Start -->
-                        <div class="col-xl-2 col-auto d-flex align-items-center justify-content-end">
-                            <!-- Header Search Start -->
-                            <div class="header-search-area mr-xl-4 mr-0">
-
-                                <!-- Header Login Start -->
-                                <div class="header-search">
-                                    <a href="javascript:void(0)" class="header-search-toggle"><i
-                                            class="pe-7s-search pe-2x pe-va"></i></a>
-                                </div>
-                                <!-- Header Login End -->
-                            </div>
-                            <!-- Header Search End -->
-
-                            <!-- Header Cart Start -->
-                            <div class="header-cart">
-
-                                <a class="header-cart-btn" href="shopping-cart.html"><span class="cart-count">2</span><i
-                                        class="far fa-shopping-cart"></i></a>
-
-                                <!-- Header Mini Cart Start -->
-                                <div class="header-mini-cart">
-                                    <div class="inner">
-
-                                        <!-- Header Mini Cart Product Start -->
-                                        <div class="mini-cart-products">
-                                            <div class="mini-cart-product">
-                                                <a href="#" class="thumb"><img
-                                                        src="assets/images/shop/shopping-cart/product-1.jpg" alt=""></a>
-                                                <div class="content">
-                                                    <a href="#" class="title">Online Student: Strategies for Effective
-                                                        Learning</a>
-                                                    <span class="quantity">1 x <span class="price">$67.00</span></span>
-                                                </div>
-                                                <a href="#" class="remove"><i class="far fa-times"></i></a>
-                                            </div>
-                                            <div class="mini-cart-product">
-                                                <a href="#" class="thumb"><img
-                                                        src="assets/images/shop/shopping-cart/product-2.jpg" alt=""></a>
-                                                <div class="content">
-                                                    <a href="#" class="title">Principles of Business Administration</a>
-                                                    <span class="quantity">1 x <span class="price">$52.00</span></span>
-                                                </div>
-                                                <a href="#" class="remove"><i class="far fa-times"></i></a>
-                                            </div>
-                                        </div>
-                                        <!-- Header Mini Cart Product End -->
-
-                                        <!-- Header Mini Cart Footer Start -->
-                                        <div class="mini-cart-footer">
-                                            <div class="mini-cart-total">
-                                                <b>Total:</b>
-                                                <span class="amount">$119.00</span>
-                                            </div>
-                                            <div class="mini-cart-buttons">
-                                                <a href="shopping-cart.html"
-                                                    class="btn btn-primary btn-hover-secondary">View Cart</a>
-                                                <a href="checkout.html"
-                                                    class="btn btn-primary btn-hover-secondary">Checkout</a>
-                                            </div>
-                                        </div>
-                                        <!-- Header Mini Cart Footer End -->
-                                    </div>
-                                </div>
-                                <!-- Header Mini Cart End -->
-                            </div>
-                            <!-- Header Cart End -->
-
-                            <!-- Header Mobile Menu Toggle Start -->
-                            <div class="header-mobile-menu-toggle d-xl-none ml-sm-2">
-                                <button class="toggle">
-                                    <i class="icon-top"></i>
-                                    <i class="icon-middle"></i>
-                                    <i class="icon-bottom"></i>
-                                </button>
-                            </div>
-                            <!-- Header Mobile Menu Toggle End -->
-                        </div>
-                        <!-- Header Right End -->
-
-                    </div>
-                </div>
-            </div>
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <!-- Header Section End -->
-
-        <!-- Main Search Start -->
-        <div class="main-search-active">
-            <div class="sidebar-search-icon">
-                <button class="search-close"><i class="fal fa-times"></i></button>
-            </div>
-            <div class="sidebar-search-input">
-                <form action="#">
-                    <div class="form-search">
-                        <input id="search" class="input-text" value="" placeholder="" type="search">
-                        <button>
-                            <i class="fa fa-search"></i>
-                        </button>
-                    </div>
-                </form>
-                <p class="form-description">Hit enter to search or ESC to close</p>
-            </div>
-        </div>
-        <!-- Main Search End -->
-
-        <!-- Slider/Intro Section Start -->
-        <div class="intro-slider-wrap section">
-            <div class="intro-section section" data-bg-image="assets/images/intro/intro1.jpg">
-
-                <div class="container-fluid">
-                    <div class="row row-cols-lg-1 row-cols-1">
-
-                        <div class="col align-self-center">
-                            <div class="intro-content text-center">
-                                <span class="sub-title">Welcome to Richter CrossFit Center</span>
-                                <h2 class="title">Work Hard EveryDay</h2>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- Slider/Intro Section End -->
-
-        <!-- Gym Categories Start -->
-        <div class="section">
-            <div class="container-fluid p-0">
-                <div class="row row-cols-xl-4 row-cols-lg-2 row-cols-sm-2 row-cols-1 g-0">
-
-                    <!-- Single Gym Categories Start -->
-                    <div class="col" data-aos="fade-right">
-                        <div class="gym-cate">
-                            <div class="cat-image">
-                                <a class="image" href="#"><img src="assets/images/gym-cate/cate-1.jpg"
-                                        alt="Categories"></a>
-                            </div>
-                            <div class="cate-content">
-                                <div class="cate-inner">
-                                    <h3 class="title">CARDIO</h3>
-                                    <a href="#" class="btn btn-light btn-hover-primary">START NOW</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Gym Categories End -->
-
-                    <!-- Single Gym Categories Start -->
-                    <div class="col" data-aos="fade-up">
-                        <div class="gym-cate">
-                            <div class="cat-image">
-                                <a class="image" href="#"><img src="assets/images/gym-cate/cate-2.jpg"
-                                        alt="Categories"></a>
-                            </div>
-                            <div class="cate-content">
-                                <div class="cate-inner">
-                                    <h3 class="title">BODY BUILD</h3>
-                                    <a href="#" class="btn btn-light btn-hover-primary">START NOW</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Gym Categories End -->
-
-                    <!-- Single Gym Categories Start -->
-                    <div class="col" data-aos="fade-down">
-                        <div class="gym-cate">
-                            <div class="cat-image">
-                                <a class="image" href="#"><img src="assets/images/gym-cate/cate-3.jpg"
-                                        alt="Categories"></a>
-                            </div>
-                            <div class="cate-content">
-                                <div class="cate-inner">
-                                    <h3 class="title">BOXING</h3>
-                                    <a href="#" class="btn btn-light btn-hover-primary">START NOW</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Gym Categories End -->
-
-                    <!-- Single Gym Categories Start -->
-                    <div class="col" data-aos="fade-left">
-                        <div class="gym-cate">
-                            <div class="cat-image">
-                                <a class="image" href="#"><img src="assets/images/gym-cate/cate-4.jpg"
-                                        alt="Categories"></a>
-                            </div>
-                            <div class="cate-content">
-                                <div class="cate-inner">
-                                    <h3 class="title">YOGA</h3>
-                                    <a href="#" class="btn btn-light btn-hover-primary">START NOW</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Single Gym Categories End -->
-
-                </div>
-            </div>
-        </div>
-        <!-- Gym Categories End -->
-
-        <!-- About Section Start -->
-        <div class="section section-padding-t100-b140 section-fluid">
-            <div class="container">
-                <div class="stroke-text">
-                    <h2 class="heading-title">FITYOUR <br> DAY</h2>
-                </div>
-                <div class="row align-items-center">
-                    <div class="col-lg-7" data-aos="fade-up">
-                        <!-- About Image Start -->
-                        <div class="about-image">
-                            <img src="assets/images/about/about-2.png" alt="">
-                        </div>
-                        <!-- About Image End -->
-                    </div>
-                    <div class="col-lg-5" data-aos="fade-up">
-                        <!-- About Content Start -->
-                        <div class="about-content">
-                            <h3 class="title">Improve Yourself Everyday</h3>
-                            <p>Vestibulum sed lectus massa. Donec egestas, diam sed ultrices hendrerit, est justo
-                                gravida eros, a mollis ipsum justo dapibus lacus. Pellentesque dui libero, ultricies</p>
-                            <a href="#" class="btn btn-primary btn-hover-dark">START NOW</a>
-                        </div>
-                        <!-- About Content End -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About Section End -->
-
-        <!-- Coaches Section Start -->
-        <div class="section section-padding-t100-b140 section-fluid-240 bg-linear-black">
-            <div class="container">
-
-                <!-- Section Title Start -->
-                <div class="section-title color-light text-center" data-aos="fade-up">
-                    <h2 class="title">EXPERIENCED COACHES</h2>
-                    <p class="sub-title">Phasellus nulla mauris, imperdiet a augue a</p>
-                </div>
-                <!-- Section Title End -->
-
-                <div class="row row-cols-lg-3 row-cols-sm-2 row-cols-1 mb-n6">
-
-                    <div class="col mb-6" data-aos="fade-right">
-                        <!-- Single Coach Start -->
-                        <div class="single-coach">
-                            <div class="thumbnial">
-                                <a class="image" href="#"><img src="assets/images/team/team-1.jpg" alt=""></a>
-                                <div class="inner-block">
-                                    <div class="slider-top-right"></div>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">Owen Cannon</h3>
-                                <span class="designation">Gym Coacher</span>
-                            </div>
-                        </div>
-                        <!-- Single Coach End -->
-                    </div>
-
-                    <div class="col mb-6" data-aos="fade-up">
-                        <!-- Single Coach Start -->
-                        <div class="single-coach">
-                            <div class="thumbnial">
-                                <a class="image" href="#"><img src="assets/images/team/team-2.jpg" alt=""></a>
-                                <div class="inner-block">
-                                    <div class="slider-top-right"></div>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">Margaret Guzman</h3>
-                                <span class="designation">Yoga Coacher</span>
-                            </div>
-                        </div>
-                        <!-- Single Coach End -->
-                    </div>
-
-                    <div class="col mb-6" data-aos="fade-left">
-                        <!-- Single Coach Start -->
-                        <div class="single-coach">
-                            <div class="thumbnial">
-                                <a class="image" href="#"><img src="assets/images/team/team-3.jpg" alt=""></a>
-                                <div class="inner-block">
-                                    <div class="slider-top-right"></div>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">Minnie Sharp</h3>
-                                <span class="designation">Dancesport Coacher</span>
-                            </div>
-                        </div>
-                        <!-- Single Coach End -->
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- Coaches Section End -->
-
-        <!-- Schedule Section Start -->
-        <div class="section section-padding-t100-b115 section-fluid">
-            <div class="container">
-                <!-- Section Title Start -->
-                <div class="section-title text-center" data-aos="fade-up">
-                    <h2 class="title">TRAINING SCHEDULE</h2>
-                    <p class="sub-title">Jadwal Pelatihan</p>
-                </div>
-                <!-- Section Title End -->
-                <div class="event-slider swiper-container" data-aos="fade-up" data-aos-delay="300">
-
-                    <div class="swiper-wrapper">
-                        @foreach($pelatihans as $pelatihan)
-                        <div class="swiper-slide">
-                            <!-- Single Event Start -->
-                            <div class="single-event">
-                                <div class="event-head">
-                                    <h3 class="title">{{$pelatihan->name}}</h3>
-                                    <span class="date">{{$pelatihan->tanggal_jam}}</span>
-                                </div>
-                                <div class="desc">
-                                    <p><span style="font-weight: bold">Member : </span>{{optional($pelatihan->client)->name}}</p>
-                                </div>
-                                <div class="desc">
-                                    <p><span style="font-weight: bold">Personal Trainer : </span>{{optional($pelatihan->employee)->name}}</p>
-                                </div>
-                                <div class="desc">
-                                    <p><span style="font-weight: bold">Status : </span>{{$pelatihan->status}}</p>
-                                </div>
-                                <div class="desc">
-                                    <p>{{$pelatihan->description}}</p>
-                                </div>
-                            </div>
-                            <!-- Single Event End -->
-                        </div>
-                        @endforeach
-
-                    </div>
-
-                    <div class="col">
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- Sehedule Section End -->
-
-        <!-- Banner Section Start -->
-        <div class="section">
-            <div class="container-fulid">
-                <div class="row row-cols-lg-2 row-cols-1 g-0">
-
-                    <div class="col" data-aos="fade-up">
-                        <!-- Single Banner Start -->
-                        <div class="single-banner">
-                            <div class="thumbnail">
-                                <a class="image" href="#"><img src="assets/images/banner/banner-1.jpg" alt=""></a>
-                                <div class="inner-block">
-                                    <div class="slider-top-right"></div>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">COVID-19 <br> ONLINE FITNESS</h3>
-                                <a href="#" class="btn btn-primary btn-hover-dark">START NOW</a>
-                            </div>
-                        </div>
-                        <!-- Single Banner End -->
-                    </div>
-
-                    <div class="col" data-aos="fade-up" data-aos-delay="300">
-                        <!-- Single Banner Start -->
-                        <div class="single-banner">
-                            <div class="thumbnail">
-                                <a class="image" href="#"><img src="assets/images/banner/banner-2.jpg" alt=""></a>
-                                <div class="inner-block">
-                                    <div class="slider-top-right"></div>
-                                </div>
-                            </div>
-                            <div class="content">
-                                <h3 class="title">COMPORTABLE SOLUTION</h3>
-                                <a href="#" class="btn btn-primary btn-hover-dark">START NOW</a>
-                            </div>
-                        </div>
-                        <!-- Single Banner End -->
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- Banner Section End -->
-
-        <!-- Testimonial Section Start -->
-        <div class="section section-padding-t120-b100 section-fluid-240">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4">
-                        <!-- Section Title Start -->
-                        <div class="section-title text-left mb-lg-0 mb-40" data-aos="fade-up">
-                            <h2 class="title">OUR TESTIMONIAL</h2>
-                        </div>
-                        <!-- Section Title End -->
-                    </div>
-                    <div class="col-lg-8">
-                        <!--Testimonial Slider Start -->
-                        <div class="testimonial-slider swiper-container" data-aos="fade-up" data-aos-delay="300">
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial">
-                                        <div class="qute-icon">
-                                            <img src="assets/images/icon/qute.svg" alt="qute">
-                                        </div>
-                                        <div class="testimonial-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <div class="content">
-                                            <p>Vestibulum sed lectus massa. Donec egestas, diam sed ultrices hendrerit,
-                                                est justo gravida eros, a mollis ipsum justo dapibus lacus. Pellentesque
-                                                dui libero, ultricies</p>
-                                        </div>
-                                        <div class="author-info">
-                                            <div class="image">
-                                                <img src="assets/images/testimonial/testimonial-1.png" alt="">
-                                            </div>
-                                            <div class="cite">
-                                                <p class="name">Bobby Hughes</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial">
-                                        <div class="qute-icon">
-                                            <img src="assets/images/icon/qute.svg" alt="qute">
-                                        </div>
-                                        <div class="testimonial-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <div class="content">
-                                            <p>Vestibulum sed lectus massa. Donec egestas, diam sed ultrices hendrerit,
-                                                est justo gravida eros, a mollis ipsum justo dapibus lacus. Pellentesque
-                                                dui libero, ultricies</p>
-                                        </div>
-                                        <div class="author-info">
-                                            <div class="image">
-                                                <img src="assets/images/testimonial/testimonial-1.png" alt="">
-                                            </div>
-                                            <div class="cite">
-                                                <p class="name">Bobby Hughes</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="testimonial">
-                                        <div class="qute-icon">
-                                            <img src="assets/images/icon/qute.svg" alt="qute">
-                                        </div>
-                                        <div class="testimonial-rating">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                        </div>
-                                        <div class="content">
-                                            <p>Vestibulum sed lectus massa. Donec egestas, diam sed ultrices hendrerit,
-                                                est justo gravida eros, a mollis ipsum justo dapibus lacus. Pellentesque
-                                                dui libero, ultricies</p>
-                                        </div>
-                                        <div class="author-info">
-                                            <div class="image">
-                                                <img src="assets/images/testimonial/testimonial-1.png" alt="">
-                                            </div>
-                                            <div class="cite">
-                                                <p class="name">Bobby Hughes</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                        <!--Testimonial Slider End -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial Section End -->
-
-        <div class="footer-section section section-fluid-240" data-bg-color="#1C1C1C">
-            <div class="container">
-
-                <!-- Footer Top Widgets Start -->
-                <div class="row mb-lg-14 mb-md-10 mb-6 align-items-center">
-
-                    <!-- Footer Widget Start -->
-                    <div class="col-lg-3 col-md-5 col-sm-12 col-12 col-12 mb-6">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="assets/images/logo/footer-logo.png" alt="Logo"></a>
-                            </div>
-                            <div class="footer-widget-content">
-                                <div class="footer-social-inline">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                                    <a href="#"><i class="fab fa-vimeo-v"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Widget End -->
-
-                    <!-- Footer Widget Start -->
-                    <div class="offset-lg-1 col-lg-5 col-md-7 col-sm-12 col-12 mb-6">
-                        <div class="footer-widget">
-                            <div class="footer-widget-content">
-                                <ul class="column-2">
-                                    <li><a href="#">Hastheme for Business</a></li>
-                                    <li><a href="#">Teach on Udemy</a></li>
-                                    <li><a href="#">Get the app</a></li>
-                                    <li><a href="#">About us</a></li>
-                                    <li><a href="#">Contact us</a></li>
-                                    <li><a href="#">Careers</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Help and Support</a></li>
-                                    <li><a href="#">Affiliate</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Widget End -->
-
-                    <!-- Footer Widget Start -->
-                    <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-6">
-                        <div class="footer-widget">
-                            <div class="footer-widget-content">
-                                <div class="ft-instagram-list">
-
-                                    <div class="instagram-grid-wrap">
-
-                                        <!-- Start Single Instagram -->
-                                        <div class="item-grid grid-style--1">
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="assets/images/instagram/instagram1.png"
-                                                        alt="instagram images">
-                                                </a>
-                                                <div class="item-info">
-                                                    <div class="inner">
-                                                        <a href="#"><i class="fas fa-heart"></i>1k</a>
-                                                        <a href="#"><i class="fas fa-comment-dots"></i>9</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Start Single Instagram -->
-
-                                        <!-- Start Single Instagram -->
-                                        <div class="item-grid grid-style--1">
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="assets/images/instagram/instagram2.png"
-                                                        alt="instagram images">
-                                                </a>
-                                                <div class="item-info">
-                                                    <div class="inner">
-                                                        <a href="#"><i class="fas fa-heart"></i>1k</a>
-                                                        <a href="#"><i class="fas fa-comment-dots"></i>9</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Start Single Instagram -->
-
-                                        <!-- Start Single Instagram -->
-                                        <div class="item-grid grid-style--1">
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="assets/images/instagram/instagram3.png"
-                                                        alt="instagram images">
-                                                </a>
-                                                <div class="item-info">
-                                                    <div class="inner">
-                                                        <a href="#"><i class="fas fa-heart"></i>1k</a>
-                                                        <a href="#"><i class="fas fa-comment-dots"></i>9</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Start Single Instagram -->
-
-                                        <!-- Start Single Instagram -->
-                                        <div class="item-grid grid-style--1">
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="assets/images/instagram/instagram4.png"
-                                                        alt="instagram images">
-                                                </a>
-                                                <div class="item-info">
-                                                    <div class="inner">
-                                                        <a href="#"><i class="fas fa-heart"></i>1k</a>
-                                                        <a href="#"><i class="fas fa-comment-dots"></i>9</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Start Single Instagram -->
-
-                                        <!-- Start Single Instagram -->
-                                        <div class="item-grid grid-style--1">
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="assets/images/instagram/instagram5.png"
-                                                        alt="instagram images">
-                                                </a>
-                                                <div class="item-info">
-                                                    <div class="inner">
-                                                        <a href="#"><i class="fas fa-heart"></i>1k</a>
-                                                        <a href="#"><i class="fas fa-comment-dots"></i>9</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Start Single Instagram -->
-
-                                        <!-- Start Single Instagram -->
-                                        <div class="item-grid grid-style--1">
-                                            <div class="thumb">
-                                                <a href="#">
-                                                    <img src="assets/images/instagram/instagram6.png"
-                                                        alt="instagram images">
-                                                </a>
-                                                <div class="item-info">
-                                                    <div class="inner">
-                                                        <a href="#"><i class="fas fa-heart"></i>1k</a>
-                                                        <a href="#"><i class="fas fa-comment-dots"></i>9</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Start Single Instagram -->
-
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Widget End -->
-
-                </div>
-                <!-- Footer Top Widgets End -->
-
-                <!-- Footer Copyright Start -->
-                <div class="row">
-                    <div class="col">
-                        <p class="copyright">Copyright &copy; 2021 All Rights Reserved | Made with <i
-                                class="fal fa-heart"></i> by <a href="https://hasthemes.com/">HasThemes</a>. </p>
-                    </div>
-                </div>
-                <!-- Footer Copyright End -->
-
-            </div>
-        </div>
-
-        <!-- Scroll Top Start -->
-        <a href="#" class="scroll-top" id="scroll-top">
-            <i class="arrow-top fal fa-long-arrow-up"></i>
-            <i class="arrow-bottom fal fa-long-arrow-up"></i>
-        </a>
-        <!-- Scroll Top End -->
-
+      </div>
     </div>
-    <div id="site-main-mobile-menu" class="site-main-mobile-menu">
-        <div class="site-main-mobile-menu-inner">
-            <div class="mobile-menu-header">
-                <div class="mobile-menu-logo">
-                    <a href="index.html"><img src="assets/images/logo/logo.png" alt=""></a>
-                </div>
-                <div class="mobile-menu-close">
-                    <button class="toggle">
-                        <i class="icon-top"></i>
-                        <i class="icon-bottom"></i>
-                    </button>
+    <!-- ***** Preloader End ***** -->
+
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="/" class="logo">Training<em> Studio</em></a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+                            <li class="scroll-to-section"><a href="#features">About</a></li>
+                            <li class="scroll-to-section"><a href="#our-classes">Classes</a></li>
+                            <li class="scroll-to-section"><a href="#schedule">Schedules</a></li>
+                            <li class="scroll-to-section"><a href="#training-schedule">Training Schedules</a></li>
+                            <li class="main-button"><a href="#">Sign Up</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
                 </div>
             </div>
-            <div class="mobile-menu-content">
-                <nav class="site-mobile-menu">
-                    <ul>
-                        <li>
-                            <a href="index.html"><span class="menu-text">Home</span></a>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+        <video autoplay muted loop id="bg-video">
+            <source src="assets/images/gym-video.mp4" type="video/mp4" />
+        </video>
+
+        <div class="video-overlay header-text">
+            <div class="caption">
+                <h6>work harder, get stronger</h6>
+                <h2>easy with our <em>gym</em></h2>
+                <div class="main-button scroll-to-section">
+                    <a href="#features">Become a member</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** Features Item Start ***** -->
+    <section class="section" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Choose <em>Program</em></h2>
+                        <img src="assets/images/line-dec.png" alt="waves">
+                        <p>Training Studio is free CSS template for gyms and fitness centers. You are allowed to use this layout for your business website.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="First One">
+                            </div>
+                            <div class="right-content">
+                                <h4>Basic Fitness</h4>
+                                <p>Please do not re-distribute this template ZIP file on any template collection website. This is not allowed.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
                         </li>
-                        <li class="has-children">
-                            <a href="about.html"><span class="menu-text">Pages</span></a>
-                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                            <ul class="sub-menu">
-                                <li><a href="about.html"><span class="menu-text">About</span></a></li>
-                                <li><a href="team.html"><span class="menu-text">Our Team</span></a></li>
-                                <li><a href="contact.html"><span class="menu-text">Contact</span></a></li>
-                            </ul>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="second one">
+                            </div>
+                            <div class="right-content">
+                                <h4>New Gym Training</h4>
+                                <p>If you wish to support TemplateMo website via PayPal, please feel free to contact us. We appreciate it a lot.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
                         </li>
-                        <li>
-                            <a href="our-program.html"><span class="menu-text">Our Program</span></a>
-                        </li>
-                        <li class="has-children">
-                            <a href="shop.html"><span class="menu-text">Shop</span></a>
-                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                            <ul class="sub-menu">
-                                <li><a href="shop.html"><span class="menu-text">Shop</span></a></li>
-                                <li><a href="product-details.html"><span class="menu-text">Product Details</span></a>
-                                </li>
-                                <li><a href="shopping-cart.html"><span class="menu-text">Shopping Cart</span></a></li>
-                                <li><a href="wishlist.html"><span class="menu-text">Wishlist</span></a></li>
-                                <li><a href="checkout.html"><span class="menu-text">Checkout</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="has-children">
-                            <a href="blog-grid.html"><span class="menu-text">Blog</span></a>
-                            <span class="menu-toggle"><i class="far fa-angle-down"></i></span>
-                            <ul class="sub-menu">
-                                <li><a href="blog-grid.html"><span class="menu-text">Blog Grid</span></a></li>
-                                <li><a href="blog-details.html"><span class="menu-text">Blog Details</span></a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="event.html"><span class="menu-text">Event</span></a>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="third gym training">
+                            </div>
+                            <div class="right-content">
+                                <h4>Basic Muscle Course</h4>
+                                <p>Credit goes to <a rel="nofollow" href="https://www.pexels.com" target="_blank">Pexels website</a> for images and video background used in this HTML template.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
                         </li>
                     </ul>
-                </nav>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="fourth muscle">
+                            </div>
+                            <div class="right-content">
+                                <h4>Advanced Muscle Course</h4>
+                                <p>You may want to browse through <a rel="nofollow" href="https://templatemo.com/tag/digital-marketing" target="_parent">Digital Marketing</a> or <a href="https://templatemo.com/tag/corporate">Corporate</a> HTML CSS templates on our website.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="training fifth">
+                            </div>
+                            <div class="right-content">
+                                <h4>Yoga Training</h4>
+                                <p>This template is built on Bootstrap v4.3.1 framework. It is easy to adapt the columns and sections.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="assets/images/features-first-icon.png" alt="gym training">
+                            </div>
+                            <div class="right-content">
+                                <h4>Body Building Course</h4>
+                                <p>Suspendisse fringilla et nisi et mattis. Curabitur sed finibus nisi. Integer nibh sapien, vehicula et auctor.</p>
+                                <a href="#" class="text-button">Discover More</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- JS
-    ============================================ -->
+    </section>
+    <!-- ***** Features Item End ***** -->
 
-    <!-- Vendors JS -->
-    <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
-    <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
-    <script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <!-- ***** Call to Action Start ***** -->
+    <section class="section" id="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="cta-content">
+                        <h2>Don’t <em>think</em>, begin <em>today</em>!</h2>
+                        <p>Ut consectetur, metus sit amet aliquet placerat, enim est ultricies ligula, sit amet dapibus odio augue eget libero. Morbi tempus mauris a nisi luctus imperdiet.</p>
+                        <div class="main-button scroll-to-section">
+                            <a href="#our-classes">Become a member</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Call to Action End ***** -->
 
-    <!-- Plugins JS -->
-    <script src="assets/js/plugins/aos.min.js"></script>
-    <script src="assets/js/plugins/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/plugins/jquery.counterup.min.js"></script>
-    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/plugins/vivus.min.js"></script>
-    <script src="assets/js/plugins/svg-inject.min.js"></script>
-    <script src="assets/js/plugins/swiper.min.js"></script>
-    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <!-- ***** Our Classes Start ***** -->
+    <section class="section" id="our-classes">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Our <em>Classes</em></h2>
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="tabs">
+              <div class="col-lg-4">
+                <ul>
+                  <li><a href='#tabs-1'><img src="assets/images/tabs-first-icon.png" alt="">First Training Class</a></li>
+                  <li><a href='#tabs-2'><img src="assets/images/tabs-first-icon.png" alt="">Second Training Class</a></a></li>
+                  <li><a href='#tabs-3'><img src="assets/images/tabs-first-icon.png" alt="">Third Training Class</a></a></li>
+                  <li><a href='#tabs-4'><img src="assets/images/tabs-first-icon.png" alt="">Fourth Training Class</a></a></li>
+                  <div class="main-rounded-button"><a href="#">View All Schedules</a></div>
+                </ul>
+              </div>
+              <div class="col-lg-8">
+                <section class='tabs-content'>
+                  <article id='tabs-1'>
+                    <img src="assets/images/training-image-01.jpg" alt="First Class">
+                    <h4>First Training Class</h4>
+                    <p>Phasellus convallis mauris sed elementum vulputate. Donec posuere leo sed dui eleifend hendrerit. Sed suscipit suscipit erat, sed vehicula ligula. Aliquam ut sem fermentum sem tincidunt lacinia gravida aliquam nunc. Morbi quis erat imperdiet, molestie nunc ut, accumsan diam.</p>
+                    <div class="main-button">
+                        <a href="#">View Schedule</a>
+                    </div>
+                  </article>
+                  <article id='tabs-2'>
+                    <img src="assets/images/training-image-02.jpg" alt="Second Training">
+                    <h4>Second Training Class</h4>
+                    <p>Integer dapibus, est vel dapibus mattis, sem mauris luctus leo, ac pulvinar quam tortor a velit. Praesent ultrices erat ante, in ultricies augue ultricies faucibus. Nam tellus nibh, ullamcorper at mattis non, rhoncus sed massa. Cras quis pulvinar eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <div class="main-button">
+                        <a href="#">View Schedule</a>
+                    </div>
+                  </article>
+                  <article id='tabs-3'>
+                    <img src="assets/images/training-image-03.jpg" alt="Third Class">
+                    <h4>Third Training Class</h4>
+                    <p>Fusce laoreet malesuada rhoncus. Donec ultricies diam tortor, id auctor neque posuere sit amet. Aliquam pharetra, augue vel cursus porta, nisi tortor vulputate sapien, id scelerisque felis magna id felis. Proin neque metus, pellentesque pharetra semper vel, accumsan a neque.</p>
+                    <div class="main-button">
+                        <a href="#">View Schedule</a>
+                    </div>
+                  </article>
+                  <article id='tabs-4'>
+                    <img src="assets/images/training-image-04.jpg" alt="Fourth Training">
+                    <h4>Fourth Training Class</h4>
+                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ultrices elementum odio ac tempus. Etiam eleifend orci lectus, eget venenatis ipsum commodo et.</p>
+                    <div class="main-button">
+                        <a href="#">View Schedule</a>
+                    </div>
+                  </article>
+                </section>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Our Classes End ***** -->
 
-    <!-- Use the minified version files listed below for better performance and remove the files listed above -->
-    <!-- <script src="assets/js/vendor/vendor.min.js"></script>
-    <script src="assets/js/plugins/plugins.min.js"></script> -->
+    <section class="section" id="schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading dark-bg">
+                        <h2>Classes <em>Schedule</em></h2>
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="filters">
+                        <ul class="schedule-filter">
+                            <li class="active" data-tsfilter="monday">Monday</li>
+                            <li data-tsfilter="tuesday">Tuesday</li>
+                            <li data-tsfilter="wednesday">Wednesday</li>
+                            <li data-tsfilter="thursday">Thursday</li>
+                            <li data-tsfilter="friday">Friday</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="schedule-table filtering">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="day-time">Fitness Class</td>
+                                    <td class="monday ts-item show" data-tsmeta="monday">10:00AM - 11:30AM</td>
+                                    <td class="tuesday ts-item" data-tsmeta="tuesday">2:00PM - 3:30PM</td>
+                                    <td>William G. Stewart</td>
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Muscle Training</td>
+                                    <td class="friday ts-item" data-tsmeta="friday">10:00AM - 11:30AM</td>
+                                    <td class="thursday friday ts-item" data-tsmeta="thursday" data-tsmeta="friday">2:00PM - 3:30PM</td>
+                                    <td>Paul D. Newman</td>
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Body Building</td>
+                                    <td class="tuesday ts-item" data-tsmeta="tuesday">10:00AM - 11:30AM</td>
+                                    <td class="monday ts-item show" data-tsmeta="monday">2:00PM - 3:30PM</td>
+                                    <td>Boyd C. Harris</td>
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Yoga Training Class</td>
+                                    <td class="wednesday ts-item" data-tsmeta="wednesday">10:00AM - 11:30AM</td>
+                                    <td class="friday ts-item" data-tsmeta="friday">2:00PM - 3:30PM</td>
+                                    <td>Hector T. Daigle</td>
+                                </tr>
+                                <tr>
+                                    <td class="day-time">Advanced Training</td>
+                                    <td class="thursday ts-item" data-tsmeta="thursday">10:00AM - 11:30AM</td>
+                                    <td class="wednesday ts-item" data-tsmeta="wednesday">2:00PM - 3:30PM</td>
+                                    <td>Bret D. Bowers</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Main Activation JS -->
-    <script src="assets/js/main.js"></script>
+    <!-- ***** Training Schedule Section Start ***** -->
+    <section class="section" id="training-schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Training <em>Schedule</em></h2>
+                        <img src="assets/images/line-dec.png" alt="line decoration">
+                        <p>Check out the upcoming training sessions. Each card contains the schedule and details for the session.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                @foreach($pelatihans as $pelatihan)
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="training-card">
+                        <h4 class="training-name">{{ $pelatihan->category }}</h4>
+                        <p class="client"><strong>Client: </strong> {{optional($pelatihan->client)->name}}</p>
+                        <p class="trainer"><strong>Personal Trainer:</strong> {{optional($pelatihan->employee)->name}}</p>
+                        <p class="type"><strong>Training Type:</strong> {{ $pelatihan->training_type }}</p>
+                        {{-- <p class="description"><strong>Description:</strong> {{ $pelatihan->description }}</p> --}}
+                        <p class="schedule"><strong>Schedule:</strong> {{ $pelatihan->tanggal_jam }}</p>
+                        <p class="status"><strong>Status:</strong> {{ $pelatihan->status }}</p>
+                    </div>
+                </div>
+                @endforeach
+            </div>
+        </div>
+    </section>
+    <!-- ***** Training Schedule Section End ***** -->
 
+    <!-- ***** Testimonials Starts ***** -->
+    <section class="section" id="trainers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>Expert <em>Trainers</em></h2>
+                        <img src="assets/images/line-dec.png" alt="">
+                        <p>Nunc urna sem, laoreet ut metus id, aliquet consequat magna. Sed viverra ipsum dolor, ultricies fermentum massa consequat eu.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/first-trainer.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>Strength Trainer</span>
+                            <h4>Bret D. Bowers</h4>
+                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/second-trainer.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>Muscle Trainer</span>
+                            <h4>Hector T. Daigl</h4>
+                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/third-trainer.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>Power Trainer</span>
+                            <h4>Paul D. Newman</h4>
+                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Testimonials Ends ***** -->
 
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; 2020 Training Studio
 
-</body>
+                    - Designed by <a rel="nofollow" href="https://templatemo.com" class="tm-text-link" target="_parent">TemplateMo</a><br>
 
+                Distributed by <a rel="nofollow" href="https://themewagon.com" class="tm-text-link" target="_blank">ThemeWagon</a>
+
+                </p>
+
+                    <!-- You shall support us a little via PayPal to info@templatemo.com -->
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script>
+    <script src="assets/js/mixitup.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+  </body>
 </html>
