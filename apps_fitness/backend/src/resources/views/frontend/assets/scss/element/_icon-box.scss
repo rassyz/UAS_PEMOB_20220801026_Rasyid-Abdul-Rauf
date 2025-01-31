@@ -1,0 +1,35 @@
+/* 03.09 Icon Box CSS */
+
+.icon-box{
+    .icon{
+        margin-bottom: 30px;
+        & svg {
+            width: 100px;
+            height: 100px;
+            & path{
+                stroke: #FF6842;
+            }
+        }
+    }
+    .content{
+        .title{
+            font-size: 22px;
+            line-height: 36px;
+            font-family: $proximaNovaBl900;
+            margin-bottom: 10px;
+        }
+        .desc{
+
+            p{
+                font-size: 24px;
+                line-height: 36px;
+                margin-bottom: 0;
+                // Responsive
+                @media #{$large-mobile}{
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}

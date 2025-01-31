@@ -1,0 +1,217 @@
+/* 03.06 Form CSS */
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"] {
+    width: 100%;
+    min-height: 85px;
+    padding: 3px 20px;
+    font-size: 24px;
+    line-height: 32px;
+    color: $body-color;
+    border: 2px solid #D5D5D5;
+    border-radius: 0px;
+    outline: none;
+    background-color: $white;
+
+@include placeholder {
+        color: #9F9F9F;
+    }
+
+    &:focus {
+        border-color: $primary;
+        background-color: $white;
+    }
+    // Responsive
+    @media #{$large-mobile}{
+        min-height: 65px;
+    }
+    @media #{$extra-small-mobile}{
+        min-height: 65px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+textarea{
+    width: 100%;
+    min-height: 220px;
+    padding: 10px 20px;
+
+    color: $body-color;
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+    outline: none;
+    background-color: #F5F5F5;
+
+    @include placeholder {
+        color: #9F9F9F;
+    }
+
+    &:focus {
+        border-color: $primary;
+        background-color: $white;
+    }
+}
+
+select{
+    position: relative;
+    width: 100%;
+    height: 85px;
+    padding: 3px 20px;
+    font-size: 24px;
+    line-height: 32px;
+    color: $body-color;
+    border: 2px solid #D5D5D5;
+    border-radius: 0px;
+    outline: none;
+    background: $white url("../images/icon/selector-icon.png") no-repeat center right 20px;
+    -webkit-appearance: none;
+    outline: none;
+    // Responsive
+    @media #{$large-mobile}{
+        height: 65px;
+    }
+    @media #{$extra-small-mobile}{
+        font-size: 16px;
+        line-height: 28px;
+        height: 65px;
+    }
+}
+.contact-map-area {
+    height: 100%;
+	iframe{
+        width: 100%;
+        height: 100%;
+        border: 0 none;
+        // Responsive
+        @media #{$tablet-device}{
+            height: 400px;
+        }
+        @media #{$large-mobile}{
+            height: 300px;
+        }
+    }
+}
+.contact-form-wrapper{
+    padding: 170px 80px;
+    // Responsive
+    @media #{$laptop-device} {
+        padding: 80px 40px;
+    }
+    @media #{$desktop-device} {
+        padding: 70px 35px;
+    }
+    @media #{$tablet-device} {
+        padding: 60px 15px;
+    }
+    @media #{$large-mobile} {
+        padding: 50px 15px;
+    }
+}
+
+.contact-form{
+    .single-input{
+        input{
+            min-height: 60px;
+            border: 0;
+            border-bottom: 2px solid #979797;
+            color: $heading-color;
+            font-size: 18px;
+            padding-left: 0;
+            &:focus {
+                border-color: $primary;
+                background-color: $white;
+            }
+            &::placeholder{
+                color: $heading-color;
+            }
+        }
+        select{
+            height: 60px;
+            border: 0;
+            border-bottom: 2px solid #979797;
+            font-size: 18px;
+            color: $heading-color;
+            padding-left: 0;
+        }
+        textarea{
+            background-color: transparent;
+            border: 0;
+            border-bottom: 2px solid #979797;
+            min-height: 141px;
+            font-size: 18px;
+            color: $heading-color;
+            padding-left: 0;
+            border-radius: 0;
+            &:focus {
+                border-color: $primary;
+                background-color: $white;
+            }
+            &::placeholder{
+                color: $heading-color;
+            }
+        }
+
+    }
+    
+}
+
+.comment-respond{
+    input{
+        border: 1px solid #D5D5D5;
+        min-height: 60px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    input[type="checkbox"]{
+        min-height: auto !important;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    textarea{
+        border: 1px solid #D5D5D5;
+        height: 190px;
+        background-color: transparent;
+        font-size: 14px;
+        line-height: 19px;
+        border-radius: 0;
+        @include placeholder {
+            color: #9F9F9F;
+        }
+    
+        &:focus {
+            border-color: $primary;
+            background-color: $white;
+        }
+    }
+}
+
+.billing-form, .shipping-form{
+    input{
+        border: 1px solid #D5D5D5;
+        min-height: 55px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    textarea{
+        border: 1px solid #D5D5D5;
+        height: 190px;
+        background-color: transparent;
+        font-size: 14px;
+        line-height: 19px;
+        border-radius: 0;
+        @include placeholder {
+            color: #9F9F9F;
+        }
+    
+        &:focus {
+            border-color: $primary;
+            background-color: $white;
+        }
+    }
+}

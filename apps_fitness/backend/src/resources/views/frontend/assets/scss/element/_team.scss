@@ -1,0 +1,117 @@
+/* 03.12 Team CSS */
+
+.single-coach{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    transition: $transition;
+    .thumbnial{
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 25px;
+        
+        .image{
+            display: block;
+            & img {
+                width: 100%;
+                transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
+            }
+        }
+        .inner-block {
+            width: 85%;
+            height: 85%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            &::before {
+                bottom: 0;
+                left: 0;
+                height: 0%;
+                transition: height .75s ease;
+                width: 4px;
+            }
+            &::after {
+                bottom: 0;
+                right: 0;
+                height: 4px;
+                transition: width .75s ease;
+                width: 0%;
+            }
+            &::before, &::after {
+                background-color: $white;
+                content: '';
+                display: block;
+                position: absolute;
+            }
+            .slider-top-right {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                &:before {
+                    top: 0;
+                    left: 0;
+                }
+                &:after {
+                    top: 0;
+                    right: 0;
+                    height: 0%;
+                    transition: height .75s ease;
+                    width: 4px;
+                }
+                &::before, &::after {
+                    background-color: $white;
+                    content: '';
+                    display: block;
+                    position: absolute;
+                  }
+                
+                  &::before {
+                    height: 4px;
+                    transition: width .75s ease;
+                    width: 0%;
+                  }
+            }
+        }
+    }
+    .content{
+        .title{
+            font-size: 20px;
+            line-height: 27px;
+            font-family: $body-font;
+            color: $white;
+            text-transform: uppercase;
+        }
+        .designation{
+            font-size: 14px;
+            line-height: 19px;
+            color: #FF6842;
+            text-transform: uppercase;
+        }
+    }
+
+    &:hover {
+        & .thumbnial {
+            & .image {
+                & img {
+                    transform: scale(1.1);
+                }
+            }
+            .inner-block:before, .slider-top-right:after {
+                height: 100%;
+              }
+              
+              .inner-block:after, .slider-top-right:before {
+                width: 100%;
+              }
+            
+        }
+    }
+}
+
+
+
+  
+

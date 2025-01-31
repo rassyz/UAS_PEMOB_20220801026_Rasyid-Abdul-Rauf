@@ -1,0 +1,143 @@
+/* 03.10 Program CSS */
+
+.program-tab{
+    padding-bottom: 80px;
+    // Responsive
+    @media #{$tablet-device}{
+        padding-bottom: 60px;
+    }
+    @media #{$large-mobile}{
+        padding-bottom: 40px;
+    }
+    ul{
+        li{
+            margin-right: 72px;
+            // Responsive
+            @media #{$laptop-device}{
+                margin-right: 20px;
+            }
+            @media #{$desktop-device}{
+                margin-right: 20px;
+            }
+            @media #{$tablet-device}{
+                margin-right: 5px;
+            }
+            @media #{$large-mobile}{
+                margin-right: 5px;
+            }
+            @media #{$small-mobile}{
+                margin-right: 5px;
+                margin-bottom: 15px;
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+            a{
+                display: block;
+                font-size: 20px;
+                line-height: 1.3;
+                position: relative;
+                padding: 3px 18px;
+                text-align: center;
+                color: $heading-color;
+                // Responsive
+                @media #{$large-mobile}{
+                    font-size: 16px;
+                    padding: 3px 14px;
+                }
+                @media #{$small-mobile}{
+                    font-size: 16px;
+                    padding: 3px 6px;
+                }
+                &::after{
+                    content: '';
+                    position: absolute;
+                    bottom: -2px;
+                    height: 2px;
+                    width: 100%;
+                    left: 0;
+                    background-color: $primary;
+                    opacity: 0;
+                }
+                &.active{
+                    &::after{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.all-program-routine{
+    text-align: center;
+    .table{
+        border: 1px solid #DCDCDC;
+        & thead{
+            & tr {
+                
+        & th{
+            font-size: 14px;
+            line-height: 1;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: $heading-color;
+            height: 120px;
+            padding: 30px 15px;
+            vertical-align: middle;
+            border-color: #DCDCDC !important;
+            
+        }
+            }
+        }
+        & td{
+            font-size: 18px;
+            line-height: 24px;
+            color: $heading-color;
+            height: 55px;
+            vertical-align: middle;
+            padding: 15px;
+            position: relative;
+        }
+        & .tt-hours-column, .tt-single-event{
+            border-right: 1px solid #DCDCDC;
+            // Responsive
+            @media #{$tablet-device}{
+                max-width: 200px;
+                min-width: 200px;
+                width: 200px;
+            }
+            @media #{$large-mobile}{
+                max-width: 150px;
+                min-width: 150px;
+                width: 150px;
+            }
+
+        }
+        & .tt-single-event{
+            height: 150px;
+            &.active{
+                background-color: #f9f9f9;
+            }
+            font-size: 14px;
+            line-height: 19px;
+            .event-header{
+                text-transform: uppercase;
+                font-family: $proximaNovaRg700;
+                font-weight: 700;
+                color: $heading-color
+            }
+            .table-badge{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 5px 20px;
+                font-size: 10px;
+                color: $white;
+                background-color: $primary;
+                line-height: 1;
+            }
+        }
+    }
+}
+

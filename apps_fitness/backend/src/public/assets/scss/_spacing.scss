@@ -1,0 +1,385 @@
+/*----------------------------------------*/
+/*  02. Template Spacing CSS
+/*----------------------------------------*/
+
+/* Section Spacing */
+.section-padding {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+
+    // Responsive
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-t185-b150{
+    padding-top: 185px !important;
+    padding-bottom: 150px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-t100-b115{
+    padding-top: 100px !important;
+    padding-bottom: 115px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-t120-b100{
+    padding-top: 120px !important;
+    padding-bottom: 100px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-t180-b210{
+    padding-top: 180px !important;
+    padding-bottom: 210px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-t120-b140{
+    padding-top: 120px !important;
+    padding-bottom: 140px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-t130-b140{
+    padding-top: 130px !important;
+    padding-bottom: 140px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-t140-b110{
+    padding-top: 140px !important;
+    padding-bottom: 110px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-t100-b200{
+    padding-top: 100px !important;
+    padding-bottom: 200px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-t140-b120{
+    padding-top: 140px !important;
+    padding-bottom: 120px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-t150-b130{
+    padding-top: 150px !important;
+    padding-bottom: 130px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+
+.section-padding-170{
+    padding-top: 170px !important;
+    padding-bottom: 170px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-130{
+    padding-top: 130px !important;
+    padding-bottom: 130px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-t180-b180{
+    padding-top: 120px !important;
+    padding-bottom: 180px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-t100-b140{
+    padding-top: 100px !important;
+    padding-bottom: 140px !important;
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-200 {
+    padding-top: 200px !important;
+    padding-bottom: 200px !important;
+
+    // Responsive
+    @media #{$laptop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$desktop-device}{
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+    }
+    @media #{$tablet-device} {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+.section-padding-bottom{
+    padding-bottom: 100px !important;
+
+    // Responsive
+    @media #{$tablet-device} {
+        padding-bottom: 80px !important;
+    }
+
+    @media #{$large-mobile} {
+        padding-bottom: 60px !important;
+    }
+}
+
+.section-padding-70{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    // Responsive
+    @media #{$large-mobile} {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+}
+
+.gx-xl-12{
+    @media #{$laptop-device}{
+        margin: 0 -15px;
+    }
+}
+
+
+
+
+
