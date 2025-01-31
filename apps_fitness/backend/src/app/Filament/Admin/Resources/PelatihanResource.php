@@ -18,7 +18,7 @@ class PelatihanResource extends Resource
 {
     protected static ?string $model = Pelatihan::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-presentation-chart-line';
+    protected static ?string $navigationIcon = 'heroicon-o-information-circle';
 
     protected static ?string $navigationGroup = 'Personal Training';
 
@@ -46,10 +46,11 @@ class PelatihanResource extends Resource
                 DateTimePicker::make('tanggal_jam'),
                 Select::make('status')
                     ->options([
+                        'Upcoming' => 'Upcoming',
                         'On Progress' => 'On Progress',
                         'Finish' => 'Finish',
                     ])
-                    ->default('On Progress'),
+                    ->default('Upcoming'),
             ]);
     }
 

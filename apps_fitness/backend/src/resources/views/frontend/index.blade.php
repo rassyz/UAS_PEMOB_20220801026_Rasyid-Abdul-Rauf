@@ -10,13 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
     <title>Training Studio - Free CSS Template</title>
-<!--
 
-TemplateMo 548 Training Studio
-
-https://templatemo.com/tm-548-training-studio
-
--->
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
@@ -49,7 +43,7 @@ https://templatemo.com/tm-548-training-studio
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="/" class="logo">Training<em> Studio</em></a>
+                        <a href="/" class="logo">R4R<em> GYM</em></a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
@@ -58,7 +52,7 @@ https://templatemo.com/tm-548-training-studio
                             <li class="scroll-to-section"><a href="#our-classes">Classes</a></li>
                             <li class="scroll-to-section"><a href="#schedule">Schedules</a></li>
                             <li class="scroll-to-section"><a href="#training-schedule">Training Schedules</a></li>
-                            <li class="main-button"><a href="#">Sign Up</a></li>
+                            <li class="scroll-to-section"><a href="#trainers">Trainers</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -364,63 +358,24 @@ https://templatemo.com/tm-548-training-studio
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Strength Trainer</span>
-                            <h4>Bret D. Bowers</h4>
-                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
+                @foreach($trainers as $trainer)
+                    <div class="col-lg-4 mb-4">
+                        <div class="trainer-item">
+                            <div class="image-thumb">
+                                <img src="{{ asset('storage/' . $trainer->image) }}" alt="PT">
+                            </div>
+                            <div class="down-content">
+                                <span>{{ $trainer->category }}</span>
+                                <h4>{{ $trainer->name }}</h4>
+                                <p>{{ $trainer->description }}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/second-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Muscle Trainer</span>
-                            <h4>Hector T. Daigl</h4>
-                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/third-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Power Trainer</span>
-                            <h4>Paul D. Newman</h4>
-                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
         </div>
     </section>
+
     <!-- ***** Testimonials Ends ***** -->
 
     <!-- ***** Footer Start ***** -->
@@ -428,16 +383,7 @@ https://templatemo.com/tm-548-training-studio
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; 2020 Training Studio
-
-                    - Designed by <a rel="nofollow" href="https://templatemo.com" class="tm-text-link" target="_parent">TemplateMo</a><br>
-
-                Distributed by <a rel="nofollow" href="https://themewagon.com" class="tm-text-link" target="_blank">ThemeWagon</a>
-
-                </p>
-
-                    <!-- You shall support us a little via PayPal to info@templatemo.com -->
-
+                    <p>Copyright &copy; 2025 R4R GYM</p>
                 </div>
             </div>
         </div>

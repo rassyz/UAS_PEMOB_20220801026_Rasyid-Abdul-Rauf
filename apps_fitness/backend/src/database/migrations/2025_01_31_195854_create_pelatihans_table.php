@@ -19,7 +19,7 @@ return new class extends Migration
             $table->foreignId('employee_id')->constrained('employees')->onDelete('cascade');
             $table->enum('training_type', ['Fitness', 'Yoga', 'Pilates'])->default('Fitness');
             $table->text('description')->nullable();
-            $table->enum('status', ['On Progress', 'Finish'])->default('On Progress');
+            $table->enum('status', ['Upcoming', 'On Progress', 'Finish'])->default('Upcoming');
             $table->timestamp('tanggal_jam')->nullable();
             $table->timestamps();
         });
