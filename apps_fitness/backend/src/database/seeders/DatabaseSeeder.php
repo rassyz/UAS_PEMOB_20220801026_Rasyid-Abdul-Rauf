@@ -14,6 +14,7 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // User::factory(10)->create();
+        $this->callSeeders();
 
         $user = \App\Models\User::factory()->create([
             'name' => 'Admin',
@@ -21,5 +22,12 @@ class DatabaseSeeder extends Seeder
         ]);
 
         $user->assignRole('super_admin');
+    }
+
+    private function callSeeders(): void
+    {
+        $this->call([
+            RoleSeeder::class,
+        ]);
     }
 }
