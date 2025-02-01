@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'routes/route.dart';
-// import 'services/api_service.dart';
-// import 'package:get_storage/get_storage.dart';
+import 'package:get_storage/get_storage.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import 'service/api_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -12,7 +13,7 @@ void main() async {
   // Inisialisasi SharedPreferences sebelum menjalankan aplikasi
   await SharedPreferences.getInstance();
 
-  // Get.put(ApiService()); // Inisialisasi ApiService dengan GetX
+  Get.put(ApiService()); // Inisialisasi ApiService dengan GetX
 
   runApp(const MyApp());
 }
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter GetX Routing',
+      title: 'Fitness App',
       theme: ThemeData(
         textTheme: GoogleFonts.poppinsTextTheme(),
       ),

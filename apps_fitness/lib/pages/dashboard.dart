@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import '../services/api_service.dart';
 import '../routes/route.dart';
+import '../service/api_service.dart';
 import 'profile.dart';
-import 'pertandingan.dart';
-import 'ranking.dart';
 
 class DashboardPage extends StatefulWidget {
   @override
@@ -71,14 +69,11 @@ class _DashboardPageState extends State<DashboardPage> {
   // Fungsi untuk logout
   Future<void> _logout() async {
     await _apiService.logout(); // Logout dari ApiService
-    Get.offAllNamed(AppRoutes.LOGIN); // Arahkan ke halaman login
+    Get.offAllNamed(AppRoutes.AUTH); // Arahkan ke halaman auth
   }
 
   @override
   Widget build(BuildContext context) {
-    double screenHeight = MediaQuery.of(context).size.height;
-    double screenWidth = MediaQuery.of(context).size.width;
-
     return Scaffold(
       backgroundColor: Colors.white,
       endDrawer: _buildDrawer(context),
@@ -95,10 +90,17 @@ class _DashboardPageState extends State<DashboardPage> {
                   children: [
                     Row(
                       children: [
-                        Image.asset(
-                          'assets/images/logo2.png',
-                          width: 100,
-                          height: 100,
+                        Padding(
+                          padding: EdgeInsets.only(
+                              left: 18, top: 0), // Geser posisi gambar
+                          child: CircleAvatar(
+                            radius:
+                                25, // Ukuran lingkaran (sesuaikan sesuai kebutuhan)
+                            backgroundColor: Colors
+                                .transparent, // Bisa diubah jika ingin latar belakang
+                            backgroundImage: AssetImage(
+                                'assets/images/logo.png'), // Gambar bulat
+                          ),
                         ),
                         const Spacer(),
                         Builder(
@@ -153,8 +155,6 @@ class _DashboardPageState extends State<DashboardPage> {
                                 description: pelatihan[
                                     'description'], // Deskripsi pelatihan
                                 trainer: employee['name'], // Nama pelatih
-                                score: pelatihan['nilai']
-                                    .toString(), // Nilai pelatihan
                                 status: pelatihan[
                                     'status'], // Status pelatihan (Lulus, Scheduled, dll.)
                                 clientName: client['name'], // Nama client
@@ -228,32 +228,6 @@ class _DashboardPageState extends State<DashboardPage> {
                 );
               },
             ),
-            _buildDrawerItem(
-              icon: Icons.sports_esports,
-              title: 'Pertandingan',
-              color: const Color.fromARGB(255, 74, 74, 74),
-              hoverColor: Colors.grey[400]!,
-              onTap: () {
-                Navigator.pop(context);
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => PertandinganPage()),
-                );
-              },
-            ),
-            _buildDrawerItem(
-              icon: Icons.leaderboard,
-              title: 'Top Ranking',
-              color: const Color.fromARGB(255, 74, 74, 74),
-              hoverColor: Colors.grey[400]!,
-              onTap: () {
-                Navigator.pop(context);
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => RankingPage()),
-                );
-              },
-            ),
             const Divider(),
             _buildDrawerItem(
               icon: Icons.logout,
@@ -298,7 +272,6 @@ class TrainingCard extends StatelessWidget {
   final String date;
   final String description;
   final String trainer;
-  final String score;
   final String status;
   final String clientName;
 
@@ -308,7 +281,6 @@ class TrainingCard extends StatelessWidget {
     required this.date,
     required this.description,
     required this.trainer,
-    required this.score,
     required this.status,
     required this.clientName,
   }) : super(key: key);
@@ -348,10 +320,6 @@ class TrainingCard extends StatelessWidget {
           ),
           Text(
             'Client: $clientName',
-            style: GoogleFonts.poppins(fontSize: 14),
-          ),
-          Text(
-            'Nilai: $score',
             style: GoogleFonts.poppins(fontSize: 14),
           ),
           const SizedBox(height: 12),

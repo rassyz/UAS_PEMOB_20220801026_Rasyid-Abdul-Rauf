@@ -26,7 +26,7 @@ class PaginationHandler extends Handlers
         $query = static::getEloquentQuery();
 
         $query = QueryBuilder::for($query->where('user_id', Auth::id()))
-            ->with(['user', 'pelatihans', 'hasilpertandingans', 'rankings'])
+            ->with(['user', 'pelatihans'])
             ->allowedFields($this->getAllowedFields() ?? [])
             ->allowedSorts($this->getAllowedSorts() ?? [])
             ->allowedFilters($this->getAllowedFilters() ?? [])

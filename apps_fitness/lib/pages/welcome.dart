@@ -18,15 +18,17 @@ class _WelcomePageState extends State<WelcomePage> {
   }
 
   @override
+
+  /// The screen transitions to the auth screen after 3 seconds.
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
         width: double.infinity,
         height: double.infinity,
-        color: const Color(0xFF042558),
+        color: const Color.fromARGB(255, 96, 121, 100),
         child: Center(
           child: Image.asset(
-            'assets/images/logo.png',
+            'assets/images/logos.png',
             width: 150,
             height: 150,
           ),

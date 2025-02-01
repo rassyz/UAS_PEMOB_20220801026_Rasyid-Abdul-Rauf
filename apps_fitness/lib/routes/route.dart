@@ -9,7 +9,6 @@ class AppRoutes {
   static const AUTH = '/auth';
   static const DASHBOARD = '/dashboard';
   static const PROFILE = '/profile';
-  static const PERTANDINGAN = '/pertandingan';
 
   static final routes = [
     GetPage(

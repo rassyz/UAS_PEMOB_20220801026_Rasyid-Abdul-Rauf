@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ApiService {
-  static const String baseUrl = "http://localhost/api";
+  static const String baseUrl = "http://localhost:85/api";
   String? _authToken;
 
   // Constructor untuk memuat token saat pertama kali aplikasi dijalankan
@@ -15,20 +15,21 @@ class ApiService {
   Future<void> _loadAuthToken() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     _authToken =
-        prefs.getString('authToken'); // Membaca token dari SharedPreferences
+        prefs.getString('loginToken'); // Membaca token dari SharedPreferences
   }
 
-  // Simpan token setelah login
+  // Simpan token setelah auth
   Future<void> setAuthToken(String token) async {
     _authToken = token;
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    prefs.setString('authToken', token); // Menyimpan token ke SharedPreferences
+    prefs.setString(
+        'loginToken', token); // Menyimpan token ke SharedPreferences
   }
 
   // Hapus token saat logout
   Future<void> logout() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    prefs.remove('authToken'); // Menghapus token dari SharedPreferences
+    prefs.remove('loginToken'); // Menghapus token dari SharedPreferences
     _authToken = null; // Reset token di memory
   }
 
@@ -45,8 +46,8 @@ class ApiService {
     };
   }
 
-  // Fungsi login
-  Future<String> login(String email, String password) async {
+  // Fungsi auth
+  Future<String> auth(String email, String password) async {
     final url = Uri.parse("$baseUrl/login");
 
     final response = await http.post(
@@ -61,18 +62,17 @@ class ApiService {
     if (response.statusCode == 200) {
       final data = json.decode(response.body);
       if (data['token'] != null) {
-        await setAuthToken(
-            data['token']); // Simpan token setelah login berhasil
+        await setAuthToken(data['token']); // Simpan token setelah auth berhasil
         return data['token'];
       } else {
         throw Exception("Token not found in response.");
       }
     } else if (response.statusCode == 403) {
-      throw Exception("You are not authorized to login.");
+      throw Exception("You are not authorized to auth.");
     } else if (response.statusCode == 401) {
       throw Exception("Incorrect email or password.");
     } else {
-      throw Exception("Login failed: ${response.body}");
+      throw Exception("Auth failed: ${response.body}");
     }
   }
 
@@ -118,7 +118,8 @@ class ApiService {
       return json
           .decode(response.body); // Mengambil data employee dari response
     } else {
-      throw Exception("Failed to load employee");
+      print("Error Response: ${response.body}");
+      throw Exception("Failed to load employee: ${response.body}");
     }
   }
 
